@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exercise-java-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/target/exercise-java-webapp</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>exercise-java-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exercise-java-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.12.jre7" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.4.2" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap:4.5.2" />
+          <element id="library" level="project" name="Maven: org.webjars:popper.js:1.16.0" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:3.5.1" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery-validation:1.19.0" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables:1.10.21" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-buttons:1.6.1" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-bootstrap:2-20120202-2" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-colreorder:1.5.1-1" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-responsive:2.2.3" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-rowreorder:1.2.4" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-fixedheader:3.1.7" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-fixedcolumns:3.2.2" />
+          <element id="library" level="project" name="Maven: org.webjars:datatables-colvis:1.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/exercise-java-webapp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="exercise-java-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>

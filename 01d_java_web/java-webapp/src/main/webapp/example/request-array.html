@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Data Mahasiswa</title>
+</head>
+<body>
+<form action="/exercise-java-webapp/kirim-array" method="post">
+  <div>
+    <label for="nim">NIM</label>
+    <input type="text" name="nim" id="nim" placeholder="Input your NIM">
+  </div>
+  <div>
+    <label for="nama">Nama Lengkap Mahasiswa</label>
+    <input type="text" name="nama" id="nama" placeholder="Input your fullname">
+  </div>
+  <div>
+    <label for="kota">Kota</label>
+    <select name="kota" id="kota">
+      <option value="bandung">Bandung</option>
+      <option value="jakarta">Jakarta</option>
+      <option value="surabaya">Surabaya</option>
+      <option value="solo">Solo</option>
+      <option value="semarang">Semarang</option>
+    </select>
+  </div>
+  <div>
+    <label for="tanggal">Tanggal Lahir</label>
+    <input type="date" name="tanggal" id="tanggal">
+  </div>
+  <div>
+    <label for="hobi-jogging">Joging
+      <input type="checkbox" name="hobi" id="hobi-jogging" value="Joging">
+    </label>
+    <label for="hobi-koding">Koding
+      <input type="checkbox" name="hobi" id="hobi-koding" value="Koding">
+    </label>
+    <label for="hobi-sepakbola">Sepak Bola
+      <input type="checkbox" name="hobi" id="hobi-sepakbola" value="Sepak Bola">
+    </label>
+    <label for="hobi-basket">Basket
+      <input type="checkbox" name="hobi" id="hobi-basket" value="Basket">
+    </label>
+    <label for="hobi-film">Nonton Film
+      <input type="checkbox" name="hobi" id="hobi-film" value="Nonton Film">
+    </label>
+  </div>
+  <div>
+    <button type="submit">Kirim</button>
+    <button type="reset">Reset</button>
+  </div>
+</form>
+</body>
+</html>
