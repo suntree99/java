@@ -40,70 +40,70 @@
 * Tipe Data Primitif
     * Byte
         * Merupakan Integer 8 Bit (-128 s.d. 127)
-    ```java
-    byte value = 10;
-    byte anotherValue = -10;
-    ```
+        ```java
+        byte value = 10;
+        byte anotherValue = -10;
+        ```
 
     * Short
-    * Merupakan Integer 16 Bit (-32.768 s.d. 32.767)
-    ```java
-    short value = 15000;
-    short anotherValue = -20000;
-    ```
+        * Merupakan Integer 16 Bit (-32.768 s.d. 32.767)
+        ```java
+        short value = 15000;
+        short anotherValue = -20000;
+        ```
 
     * Int
         * Merupakan Integer 32 Bit (-2.147.483.648 s.d. 2.147.483.647)
-    ```java
-    int value = 150000;
-    int anotherValue = -200000;
-    ```
+        ```java
+        int value = 150000;
+        int anotherValue = -200000;
+        ```
 
     * Long
         * Merupakan Integer 64 Bit (-9.223.372.036.854.775.808 s.d. 9.223.372.036.854.775.807)
-    ```java
-    long value = 150000L;
-    long anotherValue = -200000L;
-    ```
+        ```java
+        long value = 150000L;
+        long anotherValue = -200000L;
+        ```
 
     * Float
         * Merupakan tipe data untuk menampung angka desimal, nlai defaulnyt `0.0f`
-    ```java
-    float value = 3.5f;
-    ```
+        ```java
+        float value = 3.5f;
+        ```
 
     * Double
         * Merupakan tipe data untuk menampung angka desimal, nlai defaulnyt `0.0d`
-    ```java
-    double value = 5.0;
-    ```
+        ```java
+        double value = 5.0;
+        ```
 
     * Boolean
         * Merupakan tipe data yang hanya memiliki 2 macam nilai yaitu true dan false, nlai defaulnyt `false`
-    ```java
-    boolean value = true;
-    boolean anotherValue = false;
-    ```
+        ```java
+        boolean value = true;
+        boolean anotherValue = false;
+        ```
 
     * Char
         * Merupakan tipe data untuk menampung 1 karakter, dibungkus dengan `' '`
-    ```java
-    char item = 'A';
-    ```
+        ```java
+        char item = 'A';
+        ```
 
 * Tipe Data Reference
     * Merupakan sebuah tipe data yang merujuk ke sebuah objek atau instance dari sebuah class
         * String
             * Tipe data string menunjuk ke instance dari class `java.lang.String`
-        ```java
-        String nama = "Budi Darmawan";
-        ```
+            ```java
+            String nama = "Budi Darmawan";
+            ```
         
         * User Defined Data Type (Tipe Data Buatan)
             * Ketika kita memiliki sebuah kelas User, kita bisa membuat variabel baru dengan tipe data class User tersebut
-        ```java
-        User user = new User();
-        ```
+            ```java
+            User user = new User();
+            ```
 
 ##
 ##
